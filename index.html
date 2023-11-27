@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2344/2344132.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title> Calcule une moyenne </title>
+</head>
+<body>
+    <header>
+        <h1 class="title"> CALCULER UNE MOYENNE </h1>
+        <section class="section">
+            <div class="container">
+                <h3>Moyenne sur même cote</h3>
+                <h4>Entrez vos notes et séparez les d'un espace. Exepmle : 12 14 15</h4>
+                <input type="text" id="input1" name="input1">
+                <button type="button" id="button1"> Calculer la moyenne </button>
+                <p class="reponse1"> votre moyenne est de </p>
+            </div>
+            <div class="container">
+                <h3>Moyenne sur différente cote</h3>
+                <h4>Entrez vos notes avec leurs cotes maximum en les séparant d'un / et séparer encore vos notes d'un espace. Exemple : 12/20 14/20 15/20</h4>
+                <input type="number" id="input3" name="input3" placeholder="cote sur combien">
+                <input type="text" id="input2" name="input2">
+                <button type="button" id="button2"> Calculer la moyenne </button>
+                <p class="reponse2"> Votre moyenne est de </p>
+            </div>
+        </section>
+    </header>
+    <script src="/index.js"></script>
+</body>
+</html>
